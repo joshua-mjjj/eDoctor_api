@@ -66,7 +66,7 @@ INSTALLED_APPS = [
     "import_export",
     "django_filters",
     "dbbackup",
-    "api.apps.ApiConfig",
+    "api",
 ]
 
 AUTHENTICATION_BACKENDS = [
