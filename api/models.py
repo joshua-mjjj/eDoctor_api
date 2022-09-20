@@ -106,7 +106,6 @@ class Appointment(models.Model):
     symptoms = models.CharField(max_length=102, blank=True, null=True)
     start_date  = models.DateField(auto_now_add=True, blank=True, null=True)
     start_time = models.TimeField(auto_now_add=True, blank=True, null=True)
-    end_time = models.TimeField(auto_now_add=True, blank=True, null=True)
     verified_status =  models.CharField(max_length=52, choices=VERIFIED_STATUS)
 
     class Meta:
