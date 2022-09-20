@@ -1,11 +1,10 @@
-# UBOOK API
+# eDoctor API
 
 ## Development environment Setup
 Clone project and change directory to project folder
 
 ```
-git clone https://github.com/joshua-mjjj/ubook-api.git
-cd ubook
+git clone https://github.com/joshua-mjjj/eDoctor_api.git
 ```
 
 You can generate a secret key for your development environment by following the steps.
